@@ -1,0 +1,104 @@
+body{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+header{
+	width: 100%;
+	background-image: url(imagens/fundo-header.png);
+	background-repeat: repeat;
+	padding: 1em 0;
+}
+
+.caixa-header{
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.logo-header{
+	width: 15%;
+	position: relative;
+	left: 5%;
+	transition: 1s all;
+}
+
+.logo-header:hover{
+	transform: scale(1.1);
+}
+
+
+/* MENU SUPERIOR */
+nav{
+	position: absolute;
+	top: 35%;
+	right: 5%;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 1em;
+}
+
+nav a{
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	color: #1B1C1C;
+	font-weight: bold;
+	font-size: 1.25em;
+	transition: 1s all;
+}
+
+nav a:hover{
+	color: #8381bd;
+	font-size: 1.5em;
+}
+
+/* CONTEUDO PRINCIPAL */
+
+main{
+	width: 100%;
+}
+
+.caixa-main{
+	width: 100%;
+}
+
+.div-img1 img{
+	margin: 0  auto;
+	width: 100%;
+}
+
+.secao-video{
+	margin: 0;
+	background: linear-gradient(#8dd5ec, #8381bd, #575959);
+}
+
+.video1{
+	width: 50%;
+	margin: -2px auto;
+	padding: 2em 0 4em 0;
+}
+
+iframe{
+	box-shadow: 0 0 10px 1% #000000;
+}
+
+/* CABEÇALHO */
+
+footer{
+	background-image: url("imagens/bg-footer.png");
+	text-align: center;
+}
+
+footer img{
+	width: 10%;
+	padding: 1em;
+}
+
+.copyright{
+	padding: 0 0 1em 0;
+	font-size: 0.75em;
+	color: #8dd5ec;
+	text-transform: uppercase;
+}
