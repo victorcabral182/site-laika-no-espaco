@@ -10,58 +10,71 @@ header{
 }
 
 .caixa-header{
-	position: relative;
-	width: 100%;
+	width: 60%;
 	margin: 0 auto;
+	/*border: 1px solid darkred;*/
 }
 
 .logo-header{
-	width: 15%;
-	position: relative;
-	left: 5%;
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+	padding: 1% 0 2% 0;
 	transition: 1s all;
+	/*border: 1px solid red;*/
 }
 
 .logo-header:hover{
 	transform: scale(1.1);
 }
 
-
 /* MENU SUPERIOR */
-nav{
-	position: absolute;
-	top: 35%;
-	right: 5%;
+.nav-box{
+	margin: auto 0;
+	padding: 1%;
+	right: 1%;
+	text-align: center;
+	/*border: 1px solid red;*/
 }
 
 nav li{
-	display: inline;
-	margin: 0 0 0 1em;
+	display: inline-block;
+	cursor: pointer;
+	margin: 0.5em;
 }
 
 nav a{
+	margin: 0.5em 3em;
+	padding: 0.40em 1em;
 	text-transform: uppercase;
 	text-decoration: none;
 	text-align: center;
 	color: #1B1C1C;
 	font-weight: bold;
 	font-size: 1.25em;
-	transition: 1s all;
+	transition: 1.5s all;
+	/*border: 1px dotted red;*/
+	border-radius: 20px;
 }
 
 nav a:hover{
-	color: #8381bd;
-	font-size: 1.5em;
+	background: #1B1C1C;
+	color: #E8E7E7;
 }
 
 /* CONTEUDO PRINCIPAL */
 
 main{
 	width: 100%;
+	background: #8dd5ec;
+	/*border: 1px solid red;*/
 }
 
+/* BOX DA IMAGEM */
 .caixa-main{
-	width: 100%;
+	width: 60%;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
 }
 
 .div-img1 img{
@@ -69,20 +82,24 @@ main{
 	width: 100%;
 }
 
+/* BOX DO VIDEO */
 .secao-video{
-	margin: 0;
+	width: 100%;
 	background: linear-gradient(#8dd5ec, #8381bd, #575959);
+	/*border: 1px solid red;*/
 }
 
 .video1{
-	width: 50%;
-	margin: -2px auto;
-	padding: 2em 0 4em 0;
+	margin: 0 auto;
+	padding: 6em 0 6em 0;
+	width: 60%;
+	text-align: center;
 }
 
-iframe{
-	box-shadow: 0 0 10px 1% #000000;
+.video1 iframe{
+	width: 100%;
 }
+
 
 /* CABEÇALHO */
 
