@@ -62,6 +62,11 @@ nav a:hover{
 	color: #E8E7E7;
 }
 
+.mark-a{
+	background: #1B1C1C;
+	color: #E8E7E7;
+}
+
 /* CONTEUDO PRINCIPAL */
 
 main{
@@ -119,3 +124,46 @@ footer img{
 	color: #8dd5ec;
 	text-transform: uppercase;
 }
+
+
+/* conteúdo da página MERCH */
+
+.caixa-main-merch{
+	background: #8dd5ec;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.section1-merch{
+	background-color: #8dd5ec;
+	width: 80%;
+	margin: 0 auto;
+	padding: 5em 0 5em 0;
+	/*border: 1px solid red;*/
+}
+
+
+.div-product{
+	width: 18%;
+	padding: 1%;
+	margin: 0 2% 0 2%;
+	background: #1B1C1C;
+	border-radius: 10px 10px 20px 20px;
+	display: inline-block;
+	/*border: 1px dotted; darkblue;*/
+}
+.div-product a img{
+	width: 100%;
+}
+.div-product p{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1em;
+	color: #E8E7E7;
+	margin: 1em 0 0 0; 
+}
+.div-product p:last-child{
+	font-size: 0.8em;
+}
+
