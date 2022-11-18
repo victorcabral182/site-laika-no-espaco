@@ -31,8 +31,6 @@ header{
 /* MENU SUPERIOR */
 .nav-box{
 	margin: auto 0;
-	padding: 1%;
-	right: 1%;
 	text-align: center;
 	/*border: 1px solid red;*/
 }
@@ -87,6 +85,19 @@ main{
 	width: 100%;
 }
 
+.div-img1 p{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1em;
+	padding: 1em;
+}
+
+.player-index{
+	margin: 0 auto;
+	display: block;
+	width: 80%;
+}
+
 /* BOX DO VIDEO */
 .secao-video{
 	width: 100%;
@@ -125,7 +136,7 @@ footer img{
 	text-transform: uppercase;
 }
 
-
+/*----------------------------------------------------------------------------------*/
 /* conteúdo da página MERCH */
 
 .caixa-main-merch{
@@ -148,7 +159,7 @@ footer img{
 	padding: 1%;
 	margin: 0 2% 0 2%;
 	background: #1B1C1C;
-	border-radius: 10px 10px 20px 20px;
+	border-radius: 5px 5px 20px 20px;
 	display: inline-block;
 	/*border: 1px dotted; darkblue;*/
 }
@@ -161,9 +172,13 @@ footer img{
 	font-weight: bold;
 	font-size: 1em;
 	color: #E8E7E7;
-	margin: 1em 0 0 0; 
+	padding-top: 0.5em;
 }
 .div-product p:last-child{
 	font-size: 0.8em;
 }
+
+/*----------------------------------------------------------------------------------*/
+/* PÁGINA - TOUR
+
 
