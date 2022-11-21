@@ -17,9 +17,9 @@ header{
 
 .logo-header{
 	display: block;
-	width: 200px;
+	width: 35%;
 	margin: 0 auto;
-	padding: 1% 0 2% 0;
+	padding: 1% 0 5% 0;
 	transition: 1s all;
 	/*border: 1px solid red;*/
 }
@@ -43,7 +43,7 @@ nav li{
 
 nav a{
 	margin: 0.5em 3em;
-	padding: 0.40em 1em;
+	padding: 0.30em 1em;
 	text-transform: uppercase;
 	text-decoration: none;
 	text-align: center;
@@ -136,15 +136,25 @@ footer img{
 	text-transform: uppercase;
 }
 
+@media screen and (max-width: 480px){
+	.logo-header{
+		width: 180px;
+	}
+	nav a{
+		font-size: 1em;
+	}
+	.video1 iframe{
+		width: 100%;
+		height: 60%;
+	}
+}
 /*----------------------------------------------------------------------------------*/
 /* conteúdo da página MERCH */
-
 .caixa-main-merch{
 	background: #8dd5ec;
 	width: 100%;
 	margin: 0 auto;
 }
-
 .section1-merch{
 	background-color: #8dd5ec;
 	width: 80%;
@@ -152,8 +162,6 @@ footer img{
 	padding: 5em 0 5em 0;
 	/*border: 1px solid red;*/
 }
-
-
 .div-product{
 	width: 18%;
 	padding: 1%;
@@ -161,7 +169,11 @@ footer img{
 	background: #1B1C1C;
 	border-radius: 5px 5px 20px 20px;
 	display: inline-block;
+	transition: 250ms;
 	/*border: 1px dotted; darkblue;*/
+}
+.div-product:hover{
+	transform: scale(1.1);
 }
 .div-product a img{
 	width: 100%;
@@ -178,7 +190,67 @@ footer img{
 	font-size: 0.8em;
 }
 
+@media screen and (max-width: 480px){
+	.div-product{
+		border-radius: 5px 5px 8px 8px;
+	}
+	.div-product p{
+		font-size: 0.9em;
+	}
+	.div-product p:last-child{
+		font-size: 0.7em;
+	}
+}
 /*----------------------------------------------------------------------------------*/
-/* PÁGINA - TOUR
+/* PÁGINA - TOUR */
+
+.table-box{
+	width: 80%;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+.table-attributes{
+	width: 100%;
+	margin: 0 auto;
+	/*border: 1px solid darkred;*/
+}
+.table-attributes th{
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 3% 0;
+	border-left: 1px solid #E8E7E7;
+	border-right: 1px solid #E8E7E7;
+	color: #1B1C1C;
+}
+.table-attributes td{
+	font-size: 1em;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 2% 0;
+	border-left: 1px solid #E8E7E7;
+	border-right: 1px solid #E8E7E7;
+	color: #1B1C1C;
+}
+
+td a{
+	text-decoration: none;
+	color: #1B1C1C;
+}
+
+#main-tour{
+	background: linear-gradient(#8dd5ec, #8381BD);
+}
+
+@media screen and (max-width: 480px){
+	.table-attributes th{
+		font-size: 0.9em;
+	}
+	.table-attributes td{
+		font-size: 0.7em;
+	}
+}
+
 
 
