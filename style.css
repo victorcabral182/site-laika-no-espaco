@@ -30,7 +30,9 @@ header{
 
 /* MENU SUPERIOR */
 .nav-box{
-	margin: auto 0;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 	text-align: center;
 	/*border: 1px solid red;*/
 }
@@ -42,7 +44,7 @@ nav li{
 }
 
 nav a{
-	margin: 0.5em 3em;
+	margin: 1em 3em;
 	padding: 0.30em 1em;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -51,8 +53,8 @@ nav a{
 	font-weight: bold;
 	font-size: 1.25em;
 	transition: 1.5s all;
-	/*border: 1px dotted red;*/
 	border-radius: 20px;
+	/*border: 1px dotted red;*/
 }
 
 nav a:hover{
@@ -234,6 +236,10 @@ footer img{
 	color: #1B1C1C;
 }
 
+.table-attributes tr td:last-child:hover{
+	background: #E8E7E7;
+}
+
 td a{
 	text-decoration: none;
 	color: #1B1C1C;
@@ -251,6 +257,22 @@ td a{
 		font-size: 0.7em;
 	}
 }
+/*-----------------------------------------------------------------------------------*/
+/* PÁGINA VÍDEOS */
 
+.main-section__videos{
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	/*border: 1px solid red;*/
+}
+
+.main-section__videos iframe{
+	box-shadow: 5px 5px #1B1C1C;
+	margin: 5% 0 5% 0;
+	/*padding: 5% 0 5% 0;*/
+}
 
 
